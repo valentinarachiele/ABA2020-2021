@@ -10,3 +10,16 @@
 > nel file functions.php, dentro alla funzione function nomedeltema_scripts()
 
 ```wp_enqueue_style( 'google-font', 'https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap', array(), _S_VERSION );```
+
+- uso della griglia di simplegrid.io (il conto finale delle colonne dev'essere sempre 12)
+> nel file corrispondente alla zona della pagina che si desidera modificare (ad esempio header.php e footer.php)
+
+```<div class="row"> <!-- questo è il contenitore generale della colonne -->
+        <div class="col-5"> <!-- questa è una colonna che occupa 5/12 dello spazio -->
+          <!-- qua ci va il contenuto desiderato (HTML e PHP) -->
+        </div>
+        <div class="col-7"> <!-- questa è una colonna che occupa 7/12 dello spazio -->
+          <!-- qua ci va il contenuto desiderato (HTML e PHP) -->
+        </div>
+  </div> <!-- chiudo .row -->
+ ```
