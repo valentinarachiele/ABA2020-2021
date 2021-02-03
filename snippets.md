@@ -25,4 +25,12 @@
 </div> <!-- chiudo .row -->
  ```
  
+- togliere nel piede del sito tutti i riferimenti ad Altervista
+> nel file style.css
 
+```
+.av-credit-link {
+    visibility: hidden;
+    display: none;
+}
+ ```
