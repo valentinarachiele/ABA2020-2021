@@ -24,3 +24,15 @@
         </div>
 </div> <!-- chiudo .row -->
  ```
+ 
+- uso di tag condizionale nel PHP
+> nel file content-page.php, dentro alla cartella "template-parts" del tema
+
+```
+<?php if( is_front_page()): ?>
+    <h1>Siamo nella home</h1>
+<?php else: ?>
+    <h1>Non siamo nella home</h1>
+<?php endif; ?>
+```
+
